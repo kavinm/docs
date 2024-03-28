@@ -30,7 +30,7 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["Introduction", "Portals", "Bubbles", "Resources", "Nodes"]
+      "pages": ["introduction", "portals", "bubbles", "resources", "nodes"]
     },
     {
       "group": "On-chain Interactions",
