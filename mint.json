@@ -26,7 +26,18 @@
       "url": "api-reference"
     }
   ],
-  "anchors": [],
+  "anchors": [
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/BubbleWars/app"
+    },
+    {
+      "name": "Twitter",
+      "icon": "twitter",
+      "url": "https://twitter.com/Bubblewars_io"
+    }
+  ],
   "navigation": [
     {
       "group": "Get Started",
