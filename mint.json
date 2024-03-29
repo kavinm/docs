@@ -41,7 +41,15 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "portals", "bubbles", "resources", "nodes"]
+      "pages": ["introduction", "gameplay"]
+    },
+    {
+      "group": "Gameplay Objects",
+      "pages": ["portals", "bubbles", "resources", "nodes"]
+    },
+    {
+      "group": "Technical Details",
+      "pages": ["overview"]
     },
     {
       "group": "On-chain Interactions",
