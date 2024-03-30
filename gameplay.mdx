@@ -1,7 +1,6 @@
 ---
 title: Gameplay
-description: "Lets go over the gameplay mechanics of Bubblewars.io. 
-Learn how to play and what to expect from the game."
+description: "Lets go over the core gameplay mechanics of Bubblewars.io"
 icon: "gamepad"
 ---
 
@@ -19,7 +18,7 @@ Additionally, these funds can be withdrawn back to ETH mainnet or Blast L2 at an
 The <a href="/portals">portal</a> serves as your entry and exit point into the game world. 
 From your <a href="/portals">portal</a> is where you will emit all of your <a href="/bubbles">bubbles</a>.
 
-<h2>World Traversal</h2>
+<h2>World traversal</h2>
 Click on your portal to toggle its controls. 
 Begin emitting bubbles of specified masses (in ETH) in any direction you choose.
 Remember that ETH is 1:1 with kilograms in this game world.
@@ -27,14 +26,73 @@ The smaller the mass you emit from your portal the faster the bubble will travel
 Once you have your bubbles within the game world you must navigate them in a more precise manner.
 The world is a vacuum (for the most part). Meaning your bubbles will continue to travel in the direction they were emitted until they collide with another object in the game.
 So you must propell your bubbles by emitting mass in the opposite direction of the desired travel.
+
+
 As you move throughout the world, any object with smaller mass than your bubble will be absorbed by it.
 Chase down opponents around the map and absorb their bubbles while avoiding larger opponents that could absorb you.
 And keep track of the mass you emit to traverse the world.
 In addition to absorbing bubbles (ETH) you can absorb tokens and NFTs that spawn into the world and function as <a href="/powerups">power-ups</a>.
 
-<h2>Collecting Resources</h2>
+<h2>Collecting resources</h2>
 The game world is filled with resources that can be collected by your bubbles.
-These resources are tokens or NFTs (ERC20, ERC721, ERC1155, or any other token standard) that can be absorbed by your <a href="/bubbles">bubbles</a> and <a href="/portals">portal</a>.
+These resources are tokens or NFTs (<a target="_blank" href="https://docs.openzeppelin.com/contracts/2.x/tokens">ERC20, ERC721, ERC1155</a>, or any other token standard) that can be absorbed by your <a href="/bubbles">bubbles</a> and <a href="/portals">portal</a>.
 Additionally, these resources function as <a href="/powerups">power-ups</a> that can be held or emitted by your <a href="/bubbles">bubbles</a>/<a href="/portals">portal</a>.
 So far, resources can have one of the 3 types of power-ups: <a href="/powerups">shield</a>, <a href="/powerups">puncture</a>, or <a href="/powerups">speed</a>.
-The resources can be traded, sold, or used in other games that support the same token standards.
+For example, if dogecoin or a Bored Ape Yacht Club NFT is found floating withing the game world it can either be a <a href="/powerups">shield</a>, <a href="/powerups">puncture</a>, or <a href="/powerups">speed</a> power-up
+(depending on the parameters set by the uploader of the token/NFT).
+But where do these resources come from?
+
+<h2>Nodes</h2>
+<a target="_blank" href="">Nodes</a> are static objects dispersed throughout the game world that emit <a target="_blank" href="">resources</a>.
+But what makes them special is that they do not emit resources at just any rate, but rather only when they are interacted with.
+You must deposit a token into a node before an emission of a resource is ever triggered.
+You can think of these nodes as an exchange (Automated Market Maker like Uniswap).
+Each of these nodes holds a token pair. One of the asset you must deposit and the other of the asset that it emits (and vice versa).
+Lets say a given node has the token pair of <a>ETH</a>
+and <a target="_blank" href="https://dogwifcoin.org/">WIF (dogwifhat)</a>.
+As a user, you would navigate one of your bubbles near this node and start emitting ETH into it.
+In return, the node will emit WIF (dogwifhat) tokens into the world to be absorbed by you (or other sneaky players).
+Alternatively, if you already have WIF (dogwifhat) tokens in your bubble, you can emit them into the node to receive ETH in return.
+Each of these nodes can have different liquidity and pairs, leading to a wide range of economic opportunities within the game world (arbitrage, etc).
+So as a player taking control of these nodes would be lead to very positive outcomes.
+
+## Next Steps
+
+Dive deeper into the details of each core component of Bubblewars.io
+
+
+<CardGroup cols={2}>
+    <Card
+        title="Portals"
+        icon="gamepad"
+        href="/portals"
+    >
+        Learn more about your entry point into the world of Bubblewars.io
+    </Card>
+    <Card
+        title="Bubbles"
+        icon="unity"
+        href="/bubbles"
+    >
+        Learn more about your main mechanism of domination in Bubblewars.io
+    </Card>
+    
+</CardGroup>
+
+<CardGroup cols={2}>
+    <Card
+        title="Resources"
+        icon="gamepad"
+        href="/resources"
+    >
+        Learn more about the tokens/NFTs in Bubblewars.io and their function. 
+    </Card>
+    <Card
+        title="Nodes"
+        icon="unity"
+        href="/nodes"
+    >
+        Learn more about how and where these resources are spawned from within Bubblewars.io
+    </Card>
+    
+</CardGroup>

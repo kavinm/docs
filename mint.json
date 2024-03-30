@@ -44,7 +44,7 @@
       "pages": ["introduction", "gameplay"]
     },
     {
-      "group": "Gameplay Objects",
+      "group": "Gameplay Components",
       "pages": ["portals", "bubbles", "resources", "nodes"]
     },
     {
