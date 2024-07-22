@@ -45,7 +45,7 @@
     },
     {
       "group": "Gameplay Components",
-      "pages": ["portals", "bubbles", "resources", "nodes"]
+      "pages": ["portals", "bubbles", "base-token", "nodes"]
     },
     {
       "group": "Technical Details",
